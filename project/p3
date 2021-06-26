@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<!-- 8782144093 -->
+</body>
+<?php
+$a="198.168.1.22";
+//$x=filter_var($a,FILTER_SANITIZE_URL);
+if(filter_var($x,FILTER_VALIDATE_IP))
+{
+echo  "valid";
+echo $a;
+}
+else {
+echo "not valid";
+echo $a;
+}
+
+
+?>
+
+</body>
+</html>

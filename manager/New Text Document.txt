@@ -1,0 +1,12 @@
+   function getCity(val){
+       alert(Hi); 
+      $.ajax({
+        url Adminget_city.php,
+        type POST,
+        data {'stateid' val},
+        success function(data){
+          $(#city-list).html(data);
+        }
+      });
+
+} 
